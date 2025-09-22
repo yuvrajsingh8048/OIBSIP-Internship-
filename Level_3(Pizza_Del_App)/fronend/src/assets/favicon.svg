@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Pizza Point Icon</title>
+  <desc id="desc">Red pizza slice centered inside a blue and yellow circular border, with all toppings safely inside the slice</desc>
+
+  <!-- Smooth circular border -->
+  <circle cx="250" cy="250" r="225" fill="none" stroke="#F2C94C" stroke-width="40"/>
+  <circle cx="250" cy="250" r="205" fill="none" stroke="#0D5CA6" stroke-width="20"/>
+
+  <!-- Pizza slice -->
+  <g transform="translate(250,250) rotate(-20) scale(1.1)">
+    <!-- Slice outline -->
+    <path d="M -90 -100 Q 0 -160 90 -100 L 0 150 Z"
+          fill="none" stroke="#E53935" stroke-width="24" stroke-linejoin="round"/>
+    <!-- Inner crust line -->
+    <path d="M -70 -90 Q 0 -135 70 -90"
+          fill="none" stroke="#E53935" stroke-width="18" stroke-linecap="round"/>
+    <!-- Pepperoni circles (adjusted positions to stay inside) -->
+    <circle cx="-15" cy="-10" r="18" fill="#E53935"/>
+    <circle cx="25" cy="20" r="14" fill="#E53935"/>
+    <circle cx="-5" cy="60" r="12" fill="#E53935"/>
+  </g>
+</svg>
