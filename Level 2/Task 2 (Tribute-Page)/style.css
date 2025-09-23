@@ -1,0 +1,93 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Title Section */
+#title {
+  padding: 60px 20px 20px;
+}
+
+#title h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#title p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.play-btn {
+  font-size: 2rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  margin: 15px auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.play-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Quote Section */
+#quote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: #fff;
+  color: #000;
+}
+
+#quote p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+#quote img {
+  max-width: 320px;
+  border-radius: 10px;
+}
+
+/* Biography Section */
+#bio {
+  padding: 40px 20px;
+}
+
+#bio h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#bio p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
